@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Others
+*.bak
+*.swp
+*.swo
+
+# Ignore local data
+local_prompts.json
+conversations.json
