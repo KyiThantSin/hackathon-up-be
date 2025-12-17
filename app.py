@@ -18,7 +18,7 @@ except ImportError:
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/', method=['GET'])
+@app.route('/', methods=['GET'])
 def index():
     return jsonify({"status": "ok", "message": "HEllO WORLD"})
 
